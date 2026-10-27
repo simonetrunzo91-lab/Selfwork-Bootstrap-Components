@@ -1,0 +1,236 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* NAVBAR */
+
+.navbar {
+    height: 70px;
+    background-color: #212529;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    color: #f9f1f1;
+    transition: 0.2s;
+}
+.navbar-brand:hover{
+    color: #fed41b;
+}
+
+.nav-link {
+    color:#f9f1f1;
+    transition: 0.2s; 
+}
+
+.nav-link:hover {
+    color: #fed41b;
+}
+
+
+
+/* HEADER */
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(transparent, #212529), url(./Media/Hero.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #f9f1f1;
+    text-align: center;
+}
+
+.hero h1 {
+    text-shadow: 2px 2px 10px #212529;
+    font-size: 60px;
+}
+
+
+
+
+/* SEZIONE FILM */
+
+#film {
+    padding: 60px 0;
+    background-color: #212529;
+    
+}
+
+#film h2 {
+    color: #f9f1f1;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #343a40;
+    color: #f9f1f1;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.carousel {
+    background: linear-gradient(#212529, #41464b);
+    color: #f9f1f1;
+}
+
+#carouselExampleIndicators {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.faq {
+    background: #41464b;
+    color: #f9f1f1;
+   
+}
+
+.accordion {
+    width: 50%;
+}
+
+.accordion-button {
+    background-color: #f9f1f1;
+    color: #212529;
+}
+
+.accordion-button:focus {
+    background-color: #fed41b;
+    color: #212529;
+}
+
+
+    
+
+
+
+
+
+/* FORM  */
+
+#lavora-con-noi {
+    color: #f9f1f1;
+    padding: 60px 0;
+    background: linear-gradient(#41464b, #212529);
+}
+
+#lavora-con-noi h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#lavora-con-noi form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#lavora-con-noi form div {
+    margin-bottom: 20px;
+}
+
+#lavora-con-noi label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#lavora-con-noi input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f9f1f1;
+    border-radius: 4px;
+}
+
+#lavora-con-noi button {
+    padding: 10px 20px;
+    background-color: #f9f1f1;
+    color: #212529;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#lavora-con-noi button:hover {
+    background-color: #fed41b;
+    color: #212529;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    padding: 30px 0;
+    background-color: #212529;
+    color: #f9f1f1;
+}
+
+.footer a {
+    color: #f9f1f1;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-brand,
+.footer-info,
+.footer-social {
+    text-align: center;
+    align-self: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.social-links a {
+    color: #f9f1f1;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #fed41b;
+}
+
+
+
+@media (max-width: 576px) {
+    .navbar {
+        padding: 10px 12px;
+    }
+
+    .navbar-toggler {
+    filter: brightness(0) invert(1);
+}
+    
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    
+    #lavora-con-noi form {
+        width: 90%;
+    }
+
+    .accordion {
+        width: 70%;
+    }
+}
+
+   
+
